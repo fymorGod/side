@@ -26,14 +26,14 @@ function App() {
             </ul>
           </div>
         </div>
-      <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 ">
-      <Content/>
-      <Calendario/>
-      </div>
+        <div className="flex pt-5">
+          <Content/>
+          <Calendario />
+        </div>
+        
       </main>
 
       <aside>
-         
       </aside>
       
     </div>
